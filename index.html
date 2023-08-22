@@ -1,23 +1,43 @@
-<!-- Just a little quick thing I did while following one of BeCode's workshops. Sooner or later I'll finish it and make it better -->
-
 <!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="styles.css">
-    <title>BeCode Workshop</title>
-    <meta charset="UTF-8">
+<html lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <title>Product card</title>
 </head>
 
 <body>
+    <div id="main">
+    <img class="top-bg" id="top-bg" src="https://cdn.stocksnap.io/img-thumbs/960w/ocean-water_XJGEOPAXBO.jpg">
 
-    <div class="card">
-        <div class="top">
-          <h1> TEXT </1>
-        </div>
-        <div class="content"></div> 
-      </div>
+    <h1 id="text-box">Hermes PRO</h1>
 
+    <div class="circle" id="circle1">
+        <p id="new-text">New!</p>
+    </div>
+
+    <div class="circle" id="circle2">
+        <p id="price"><span>&#x20AC;</span>12.99</p>
+    </div>
+    
+    <ul>
+        <li>20 GB;</li>
+        <li>Unlimited calling;</li>
+        <li>Unlimited texting;</li>
+        <li>30 day contract.</li>
+    </ul>
+
+    <button class="button" type="button" id="order" name="button">Order now</button>
+
+    <a href="" id="info">More info <span>&#10230;</span></a>
+
+</div>
 </body>
-
 </html>
